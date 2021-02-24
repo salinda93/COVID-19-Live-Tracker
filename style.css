@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body{
+    height: 100vh;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body:after{
+    position: absolute;
+    content: "";
+    height: 50%;
+    width: 100%;
+    background: coral;
+    top: 0%;
+}
+
+body:before{
+    position: absolute;
+    content: "";
+    height: 50%;
+    width: 100%;
+    background: rgb(230, 182, 182);
+    bottom: 0%;
+}
+
+.container{
+    z-index: 1;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 24px;
+    background: rgb(233, 226, 129);
+    padding: 2%;
+    box-shadow: 0px 10px 6px -8px rgb(0, 0, 0 , 0.75);
+}
+
+.board{
+    column-count: 3;
+    column-gap: 1rem;
+}
+
+.container h2{
+    margin: 0 0 30px;
+    text-align: center;
+}
+
+img#flag{
+    height: 20px;
+    width: 20px;
+}
+
+.card{
+    width: 84%;
+    background: rgb(209, 181, 238);
+    padding: 8%;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    color: #fff;
+}
+
+.card.a{
+    background: rgb(74, 116, 233);
+}
+
+.card.cr{
+    background: rgb(231, 26, 26);
+}
+
+.card.r{
+    background: rgb(10, 228, 10);
+}
+
+.card.ca{
+    background: rgb(137, 139, 9);
+}
+
+.card.d{
+    background: rgb(112, 2, 2);
+}
+
+.card.t{
+    background: orange;
+}
+
+.card span{
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+.card i{
+    font-size: 3rem;
+}
+
+
+
+
+
+
